@@ -32,9 +32,9 @@ Retrieve Commit Messages:
 
 # Demo Images
 
-<img src="./demo/demo1.png" width="1000" height="300">
+<img src="./demo/demo1.png" width="800" height="300">
 
-<img src="./demo/demo2.png" width="1000" height="300">
+<img src="./demo/demo2.png" width="800" height="300">
 
 ## Available Scripts
 
