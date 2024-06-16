@@ -1,0 +1,29 @@
+@import '../../styles/colors.css';
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 10px 0;
+}
+thead {
+  text-align: left;
+}
+
+tr {
+  background: var(--pure-white);
+  border: 1px solid rgb(184, 184, 184);
+}
+
+tr:hover {
+  color: var(--pure-white);
+  background: #535352;
+  cursor: pointer;
+}
+
+th {
+  padding: 10px 10px;
+}
+
+td {
+  padding: 8px;
+}

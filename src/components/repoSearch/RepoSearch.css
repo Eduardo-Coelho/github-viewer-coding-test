@@ -1,0 +1,28 @@
+@import '../../styles/colors.css';
+
+.repo-form {
+  input,
+  button {
+    border-radius: 2%;
+  }
+  input {
+    height: 30px;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid var(--pure-black);
+  }
+  button {
+    cursor: pointer;
+    background: var(--branding-primary-color);
+    font-weight: 600;
+    border: none;
+    height: 40px;
+    width: 80px;
+    margin: auto 5px;
+
+    &:disabled {
+      cursor: not-allowed;
+      background: #efecec;
+    }
+  }
+}

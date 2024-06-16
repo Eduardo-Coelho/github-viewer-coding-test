@@ -1,12 +1,50 @@
-# Getting Started with Create React App
+# Getting Started with The Github Commits Viewer App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Programming Test
+
+Objective:
+Using React (and any other libraries you wish) and GitHub's API, implement a UI project that accomplishes the following:
+
+Story:
+
+- As an unauthenticated user, I want to see the last 100 commits in a GitHub repository of my choosing, with detailed information available upon clicking a single commit, so that I can understand the recent contributions to the repository.
+
+## Acceptance Criteria:
+
+Retrieve Commit Messages:
+
+## Given: A GitHub owner and repository name.
+
+- When: The user inputs the owner and repository name, and presses a button.
+- Then: The application should return and display the commit messages of the last 100 commits for the specified repository.
+  Display Commit Details:
+
+## Given: A list displaying the 100 latest commits for the specified repository.
+
+- When: The user clicks on a single commit message in the list.
+- Then: The application should display the details of the commit, including the formatted date and time, author, and commit message.
+  Handle Invalid Repository:
+
+## Given: A GitHub owner or repository name that does not exist on GitHub.
+
+- When: The user inputs the invalid owner or repository name, and presses a button.
+- Then: The application should display an error message indicating that the owner or repository could not be found.
+
+# Demo Images
+
+<img src="./demo/demo1.png" width="500" height="500">
+
+<img src="./demo/demo2.png" width="500" height="500">
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+### `npm instal`
+
+To install all the app's dependencies
+
+### `npm run start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -14,33 +52,15 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `npm test`
+### `npm run test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Launches the test runner
+
+### `npm run test:coverage`
+
+To see the overall test coverage
 
 ### `npm run build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).

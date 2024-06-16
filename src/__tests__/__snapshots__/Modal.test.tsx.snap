@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal matches snapshot when closed 1`] = `<DocumentFragment />`;
+
+exports[`Modal matches snapshot when open 1`] = `
+<DocumentFragment>
+  <div
+    class="model-container"
+  >
+    <div
+      class="model-content"
+    >
+      <div>
+        Modal Content
+      </div>
+      <button
+        class="model-button"
+      >
+        Close
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;

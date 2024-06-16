@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RepoSearch matches snapshot 1`] = `
+<DocumentFragment>
+  <form
+    class="repo-form"
+  >
+    <input
+      placeholder="GitHub Owner"
+      type="text"
+      value=""
+    />
+    <input
+      placeholder="GitHub Repo"
+      type="text"
+      value=""
+    />
+    <button
+      disabled=""
+      type="submit"
+    >
+      Search
+    </button>
+  </form>
+</DocumentFragment>
+`;

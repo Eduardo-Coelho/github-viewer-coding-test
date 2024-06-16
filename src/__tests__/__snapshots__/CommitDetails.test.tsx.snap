@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CommitDetails matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    test-id="commit-details"
+  >
+    <h3>
+      Commit Details:
+    </h3>
+    <p>
+      <strong>
+        Author:
+      </strong>
+       John Doe (John Doe)
+    </p>
+    <p>
+      <strong>
+        Date:
+      </strong>
+       21/05/2023, 13:34:56
+    </p>
+    <p>
+      <strong>
+        Message:
+      </strong>
+       Initial commit
+    </p>
+    <p>
+      <a
+        href="http://example.com/commit/1"
+        rel="noreferrer"
+        target="_blank"
+      >
+        View Commit
+      </a>
+    </p>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`CommitDetails matches snapshot when commit is null 1`] = `
+<DocumentFragment>
+  <div
+    test-id="commit-details"
+  >
+    <h3>
+      Commit Details:
+    </h3>
+    <p>
+      <strong>
+        Author:
+      </strong>
+       N/A (N/A)
+    </p>
+    <p>
+      <strong>
+        Date:
+      </strong>
+       N/A
+    </p>
+    <p>
+      <strong>
+        Message:
+      </strong>
+       N/A
+    </p>
+    <p>
+      <a
+        rel="noreferrer"
+        target="_blank"
+      >
+        View Commit
+      </a>
+    </p>
+  </div>
+</DocumentFragment>
+`;

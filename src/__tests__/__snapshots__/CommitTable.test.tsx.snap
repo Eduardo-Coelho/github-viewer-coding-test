@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CommitTable matches snapshot 1`] = `
+<DocumentFragment>
+  <table>
+    <thead>
+      <tr>
+        <th>
+          Id
+        </th>
+        <th>
+          Message
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          123abc
+        </td>
+        <td>
+          Initial commit
+        </td>
+      </tr>
+      <tr>
+        <td>
+          456def
+        </td>
+        <td>
+          Second commit
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</DocumentFragment>
+`;
+
+exports[`CommitTable matches snapshot with empty commits list 1`] = `
+<DocumentFragment>
+  <table>
+    <thead>
+      <tr>
+        <th>
+          Id
+        </th>
+        <th>
+          Message
+        </th>
+      </tr>
+    </thead>
+    <tbody />
+  </table>
+</DocumentFragment>
+`;
