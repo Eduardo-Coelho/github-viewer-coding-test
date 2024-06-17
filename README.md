@@ -30,12 +30,6 @@ Retrieve Commit Messages:
 - When: The user inputs the invalid owner or repository name, and presses a button.
 - Then: The application should display an error message indicating that the owner or repository could not be found.
 
-# Demo Images
-
-<img src="./demo/demo1.png" width="1000" height="500">
-
-<img src="./demo/demo2.png" width="1000" height="500">
-
 ## Available Scripts
 
 In the project directory, you can run:
