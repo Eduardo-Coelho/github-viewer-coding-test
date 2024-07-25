@@ -3,6 +3,9 @@
 ## Programming Test
 
 Objective:
+
+**Prioritize the code quality aspects such as readability and scalability while explicitly noting that UI design is not the main concern**
+
 Using React (and any other libraries you wish) and GitHub's API, implement a UI project that accomplishes the following:
 
 Story:
